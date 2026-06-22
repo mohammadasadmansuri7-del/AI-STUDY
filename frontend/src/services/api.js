@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://ai-study-backend-ghy1.onrender.com/api",
   timeout: 120000, // 2 minutes for AI generation
 });
 
