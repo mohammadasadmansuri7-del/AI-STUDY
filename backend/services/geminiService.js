@@ -125,7 +125,7 @@ async function generateFromTopic(topic) {
  */
 async function generateFromContent(content) {
   try {
-    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
+    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
     // Optimize Prompt Token Count using sliceText helper
     const truncatedContent = sliceText(content, 15000);
